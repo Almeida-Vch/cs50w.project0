@@ -20,10 +20,6 @@ a:hover{
 a:active{
     color: black;
 }
-.imgstart{
-    display: flex;
-    justify-content: center;
-}
 .form{
     display: flex;
     justify-content: center;
@@ -91,4 +87,31 @@ a:active{
 }
 .margin{
     margin: 15px;
+}
+.text-a{
+    font-size: 13px;
+    vertical-align: middle;
+}
+.advanced-button{
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    background-color: #4d90fe;
+    background-image: -webkit-linear-gradient(top,#4d90fe,#4787ed);
+    background-image: -moz-linear-gradient(top,#4d90fe,#4787ed);
+    background-image: -ms-linear-gradient(top,#4d90fe,#4787ed);
+    background-image: -o-linear-gradient(top,#4d90fe,#4787ed);
+    background-image: linear-gradient(top,#4d90fe,#4787ed);
+    border: 1px solid #3079ed;
+    color: #fff;
+}
+.button-div{
+    display: flex;
+    justify-content: flex-end;
+    width: 590px;
+    margin-top: 35px;
+}
+.center-align{
+    display: flex;
+    justify-content: center;
 }
